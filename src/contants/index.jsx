@@ -6,10 +6,9 @@ import project5 from "../assets/weather.png";
 import project6 from "../assets/todo.png";
 import project7 from "../assets/BMI-calc.png";
 import project8 from "../assets/Calculator.png";
-import project9 from "../assets/E-Cart.png";
+import project9 from "../assets/e-cart.png";
 import project10 from "../assets/Restaurant.png";
-import { a } from "framer-motion/client";
-
+import project0 from "../assets/Socialmedia.png"
 
 
 
@@ -84,10 +83,11 @@ export const EXPERIENCE = [
 export const PROJECTS = [
   {
     title: "Social Media (Full-Stack MERN)",
+    image: project0,
     description:
       "A Pinterest-inspired full-stack application where users can create, save, and manage image-based posts with custom boards. Built with React, Express, MongoDB, and Zustand, featuring media uploads, comments, and dynamic user profiles." ,
     technologies: ["React.js","TailwindCSS", "MongoDB", "Node.js", "..."],
-    github: <a href="https://lnkd.in/gCrkwjrY">Git</a>
+    github: <a href="https://github.com/arjxn2001/Social-Media.git">Git</a>
 
   },
   {
@@ -96,8 +96,8 @@ export const PROJECTS = [
     description:
       "VirtualR is a responsive frontend web app for a VR development toolkit, featuring an interactive UI that showcases tools like drag-and-drop, real-time preview, and cross-platform compatibility.",
     technologies: [ "React", "TailwindCSS"],
-        github: <a href="">Git</a>,
-    live: <a href="">Live</a>,
+        github: <a href="https://github.com/arjxn2001/VirtualR.git">Git</a>,
+    live: <a href="https://virtual-r-teal.vercel.app/">Live</a>,
 
   },
   {
@@ -106,8 +106,8 @@ export const PROJECTS = [
     description:
       "A responsive frontend movie app that displays trending and popular movies using dynamic UI components and clean layout, with search and adding to favourites features.",
     technologies: ["React", "Javascript", "CSS"],
-    github: <a href="">Git</a>,
-    live: <a href="">Live</a>,
+    github: <a href="https://github.com/arjxn2001/movie-app.git">Git</a>,
+    live: <a href="movie-d3ld6cric-arjun-kbs-projects.vercel.app">Live</a>,
 
   },
   {
@@ -116,8 +116,8 @@ export const PROJECTS = [
     description:
       " From sleek UI to functional filters and category-based search, this project was all about enhancing the e-commerce experience ",
     technologies: ["React","HTML", "CSS", "Javascript"],
-    github: <a href="">Git</a>,
-    live: <a href="">Live</a>,
+    github: <a href="https://github.com/arjxn2001/Shoe-cart.git">Git</a>,
+    live: <a href="https://shoe-cart-lemon.vercel.app/">Live</a>,
   },
   {
     title: "Gemini Frontend Clone",
@@ -125,8 +125,8 @@ export const PROJECTS = [
     description:
       "Designed an intuitive and responsive user interface for an AI-powered Gemini app using modern frontend technologies.",
     technologies: ["React", "Tailwind Css", "Framer Motion",],
-    github: <a href="">Git</a>,
-    live: <a href="">Live</a>,
+    github: <a href="https://github.com/arjxn2001/Gemini.git">Git</a>,
+    live: <a href="https://gemini-nine-beige.vercel.app/">Live</a>,
   },
   {
     title: "Weather Forecast",
@@ -134,8 +134,8 @@ export const PROJECTS = [
     description:
       "The design includes modern layout techniques and visually appealing styles to display current weather information such as temperature, location, weather condition, and date.",
     technologies: ["HTML", "CSS", "JavaScript",],
-    github: <a href="">Git</a>,
-    live: <a href="">Live</a>,
+    github: <a href="https://github.com/arjxn2001/weather_app.git">Git</a>,
+    live: <a href="https://arjxn2001.github.io/weather_app/">Live</a>,
   },
   {
     title: "ToDo List",
@@ -143,8 +143,8 @@ export const PROJECTS = [
     description:
       "A dynamic and responsive To-Do List app built with React, featuring task addition, deletion, and real-time state updates.",
     technologies: ["React", "HTML","CSS", "JavaScript",],
-    github: <a href="">Git</a>,
-    live: <a href="">Live</a>,
+    github: <a href="https://github.com/arjxn2001/Todo-.git">Git</a>,
+    live: <a href="todo-n1jh6vgzw-arjun-kbs-projects.vercel.app">Live</a>,
   },
   {
     title: "BMI Calculator",
@@ -152,8 +152,8 @@ export const PROJECTS = [
     description:
       "A simple and interactive BMI Calculator built with React that computes and displays BMI based on user input for height and weight.",
     technologies: ["React", "JavaScript", ],
-    github: <a href="">Git</a>,
-    live: <a href="">Live</a>,
+    github: <a href="https://github.com/arjxn2001/bmi_calc.git">Git</a>,
+    live: <a href="bmi-calc-fcuyuqc3n-arjun-kbs-projects.vercel.app">Live</a>,
   },
   {
     title: "Calculator",
@@ -170,8 +170,8 @@ export const PROJECTS = [
     description:
       "A responsive e-cart shopping app built with React, featuring product listings, cart management, and a smooth user experience for browsing and purchasing items.",
     technologies: ["React", "HTML", "CSS",],
-    github: <a href="">Git</a>,
-    live: <a href="">Live</a>,
+    github: <a href="https://e-cart-three-kappa.vercel.app/">Git</a>,
+    live: <a href="https://github.com/arjxn2001/e-cart.git">Live</a>,
   },
   {
     title: "Restaurant Web",
@@ -179,8 +179,8 @@ export const PROJECTS = [
     description:
       "A visually appealing restaurant website built using HTML and CSS, showcasing menu items, location, and services with a clean and responsive layout.",
     technologies: ["HTML", "CSS",],
-    github: <a href="">Git</a>,
-    live: <a href="">Live</a>,
+    github: <a href="https://github.com/arjxn2001/restaurant_html_css.git">Git</a>,
+    live: <a href="https://arjxn2001.github.io/restaurant_html_css/">Live</a>,
   },
 ];
 

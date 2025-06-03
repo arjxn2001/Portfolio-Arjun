@@ -44,13 +44,13 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-fill max-w-xl lg:w-3/4"
             >
-              <div>
-                <h6 className="mb-2 font-semibold">{project.title}</h6>
-                <span>{project.github}</span>
-                <span>{project.live}</span>
+              <div className='flex gap-10'>
+                <h6 className="mb-2 font-semibold ">{project.title}</h6>
+                <span className='text-sm text-cyan-500 mt-0.5 underline'>{project.github}</span>
+                <span  className='text-sm text-cyan-500 mt-0.5 underline'>{project.live}</span>
               </div>
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
-              <span>{project.github}</span>
+             
+              
               <p className="mb-4 text-neutral-400">{project.description}</p>
               {project.technologies.map((tech, idx) => (
                 <span
