@@ -43,7 +43,8 @@ const Hero = () => {
                 variants={container(1.5)}
                 initial="hidden"
                 animate="visible"
-                href="" download="Arjun_Resume.pdf"
+                href="/resume_arjun_kb.pdf" 
+                download="Arjun_Resume.pdf"
                     className="bg-gradient-to-r from-cyan-800 via-cyan-600 to-cyan-800  hover:text-gray-900 text-white font-semibold py-2 px-4 rounded-xl transition-all duration-300 mb-10">
                       Download Resume
                 </motion.a>
