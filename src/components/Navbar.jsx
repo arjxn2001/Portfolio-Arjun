@@ -11,9 +11,8 @@ const Navbar = () => {
         </div>
         <div className='m-3 flex items-center justify-center gap-6 text-2xl text-neutral-200'>
           <a href="https://www.linkedin.com/in/arjun-kb-520a51262/?trk=opento_sprofile_details"><Linkedin /></a>
-          <Github />
-          <Instagram/>
-          <Twitter/>
+          <a href="https://github.com/arjxn2001"><Github /></a>
+          <a href="https://www.instagram.com/arj.x.n_?igsh=NWdvdWMxZHIwaHpv&utm_source=qr"><Instagram/></a>
         </div>
     </nav>
   )
