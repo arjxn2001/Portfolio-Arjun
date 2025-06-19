@@ -9,7 +9,7 @@ import project8 from "../assets/Calculator.png";
 import project9 from "../assets/e-cart.png";
 import project10 from "../assets/Restaurant.png";
 import project0 from "../assets/Socialmedia.png"
-
+import project from "../assets/AutoShop.png"
 
 
 
@@ -81,6 +81,15 @@ export const EXPERIENCE = [
 
 
 export const PROJECTS = [
+  {
+    title: "Auto Shop - Freelance Ongoing",
+    image: project,
+    description:
+      " – A freelance project for a premium car detailing brand, featuring a fully responsive design, smooth animations, and a dynamic video background.",
+    technologies: ["React", "Javascript", "Framer-Motion", "TailwindCss"],
+    live: <a href="https://xdautopro.vercel.app/">Live</a>,
+
+  },
   {
     title: "Social Media (Full-Stack MERN)",
     image: project0,
