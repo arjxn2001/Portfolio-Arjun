@@ -45,7 +45,7 @@ const Hero = () => {
                 animate="visible"
                 href="/resume_arjun_kb.pdf" 
                 download="Arjun_Resume.pdf"
-                    className="bg-gradient-to-r from-cyan-800 via-cyan-600 to-cyan-800  hover:text-gray-900 text-white lg:text-md  text-xs font-semibold py-2 px-4 rounded-xl transition-all duration-300 mb-10">
+                    className="bg-gradient-to-r from-cyan-800 via-cyan-600 to-cyan-800  hover:text-gray-900 text-white lg:text-md lg:text-sm text-xs font-semibold py-2 px-4 rounded-xl transition-all duration-300 mb-10">
                       Download Resume
                 </motion.a>
             </div>
