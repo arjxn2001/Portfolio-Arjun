@@ -7,7 +7,7 @@ const ContactMe = () => {
     <div className="text-center mt-10">
       <button
         onClick={() => setShowContacts(!showContacts)}
-        className="bg-gradient-to-r from-cyan-800 via-cyan-400 to-cyan-800  text-white hover:text-gray-300 font-semibold py-2 px-4 rounded-xl transition-all duration-300"
+        className="bg-gradient-to-r from-cyan-800 via-cyan-400 to-cyan-800  text-white hover:text-gray-300 font-semibold py-2 px-4 rounded-xl transition-all duration-300 text-sm"
       >
         Contact Me
       </button>

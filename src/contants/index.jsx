@@ -14,22 +14,33 @@ import project from "../assets/AutoShop.png"
 
 
 
-export const HERO_CONTENT = `I'm a front-end developer with a strong foundation in HTML, CSS, JavaScript, and React.js. I love crafting engaging user interfaces and optimizing web performance. As a fresher, I am eager to learn, adapt, and contribute to innovative projects.`;
+export const HERO_CONTENT = `I'm a front-end developer skilled in HTML, CSS, JavaScript, and React.js, with a keen eye for creating responsive and user-friendly interfaces. I’ve also completed a Figma UI/UX Design course, enhancing my design-to-development workflow. As a fresher, I'm eager to learn, grow, and contribute to impactful web projects.
+I’m passionate about turning ideas into clean, efficient, and visually appealing digital experiences.`;
 
-export const ABOUT_TEXT = `I am a passionate and versatile front-end developer with a strong foundation in building efficient and user-friendly web applications. My journey into web development began with a deep curiosity about how things work, which has since evolved into a career focused on continuous learning and adaptation.
+export const ABOUT_TEXT = `I am a passionate and versatile Front-End Developer with a strong foundation in building efficient, responsive, and user-friendly web applications. My journey into web development began with a deep curiosity about how things work, which has grown into a career focused on continuous learning, creativity, and innovation.
 
-I completed a six-month MEARN full-stack development course in July 2024, followed by self-training through online resources to refine my web development skills. Additionally, I gained hands-on experience as a Salesforce developer for six months, further expanding my technical expertise.
+I completed a six-month MEARN full-stack development course in July 2024, and have since strengthened my skills through self-learning and hands-on projects. I also gained valuable experience working as a Salesforce Developer for six months, expanding my understanding of scalable, enterprise-level solutions.
 
-I thrive in collaborative environments, where I enjoy solving complex problems and crafting high-quality solutions that enhance user experiences. Beyond coding, I stay active and love exploring new technologies to keep up with the ever-evolving web development landscape.`;
+In addition to development, I’ve completed a certification in Figma UI/UX Design, enabling me to better translate design concepts into functional, engaging interfaces that align with user needs and business goals.
 
-export const CERTIFICATION = {
+I thrive in collaborative environments where I can contribute to solving real-world problems and delivering high-quality digital experiences. Outside of coding, I enjoy staying active and exploring emerging technologies to stay ahead in the ever-evolving tech landscape.
+`;
+
+export const CERTIFICATION = [
+{
     duration: "Feb 2024 - July 2024",
     course: "( NACTET ) Mearn Full Stack Development",
     institute: "Luminar Technolab",
 
 
+  },
+  {
+    duration: "12 hours (July 2, 2025)",
+    course: "Figma UI UX Design",
+    institute: "Udemy",
   }
 
+]
 // export const EXPERIENCES = [
 //   {
 //     year: "2023 - Present",

@@ -21,21 +21,21 @@ const Hero = () => {
                 variants={container(0)}
                 initial="hidden"
                 animate="visible"
-                className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">
+                className="lg:pb-7 pb-5 text-5xl font-thin tracking-tight lg:mt-16 lg:text-6xl">
                     Arjun KB
                 </motion.h1>
                 <motion.span
                 variants={container(0.5)}
                 initial="hidden"
                 animate="visible"
-                 className="bg-gradient-to-r from-purple-600 via-slate-400 to-pink-300 text-transparent bg-clip-text text-3xl tracking-tight font-light">
+                 className="bg-gradient-to-r from-purple-600 via-slate-400 to-pink-300 text-transparent bg-clip-text lg:text-3xl text-xl tracking-tight font-light">
                     React Front End Developer
                 </motion.span>
                 <motion.p
                 variants={container(1)}
                 initial="hidden"
                 animate="visible"
-                className="my-2 max-w-xl py-6 font-light text-neutral-300 ">
+                className="my-1 max-w-xl py-6 font-light text-neutral-300 text-xs lg:text-sm text-justify">
                   {HERO_CONTENT}
                 </motion.p>
 
@@ -45,7 +45,7 @@ const Hero = () => {
                 animate="visible"
                 href="/resume_arjun_kb.pdf" 
                 download="Arjun_Resume.pdf"
-                    className="bg-gradient-to-r from-cyan-800 via-cyan-600 to-cyan-800  hover:text-gray-900 text-white font-semibold py-2 px-4 rounded-xl transition-all duration-300 mb-10">
+                    className="bg-gradient-to-r from-cyan-800 via-cyan-600 to-cyan-800  hover:text-gray-900 text-white lg:text-md  text-xs font-semibold py-2 px-4 rounded-xl transition-all duration-300 mb-10">
                       Download Resume
                 </motion.a>
             </div>
@@ -56,7 +56,7 @@ const Hero = () => {
             initial={{x:100, opacity:0}}
             animate={{x:0, opacity:1}}
             transition={{duration:1 , delay:0.6}}
-            className="lg:w-95  border sm:w-100  border-neutral-500 shadow-amber-50  rounded-2xl lg:ml-8 " src={profilePic} alt="Arjun KB" />
+            className="lg:w-95  border sm:w-100  border-neutral-500  shadow-lg shadow-neutral-600  rounded-2xl lg:ml-8 " src={profilePic} alt="Arjun KB" />
           </div>
         </div>
       </div>
